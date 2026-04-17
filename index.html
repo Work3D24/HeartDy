@@ -170,7 +170,7 @@
        รูปแบบวันที่: YYYY-MM-DD
        ตัวอย่าง: 2026-04-20
     ========================================================= */
-    const RELEASE_DATE_THAI = "2026-04-17";
+    const RELEASE_DATE_THAI = "2026-04-21";
 
     /* =========================================================
        MODEL FILE NAMES
@@ -218,7 +218,7 @@
       );
 
       const releaseDateCompact = RELEASE_DATE_THAI.replaceAll("-", "");
-      const releaseThaiNumber = Number(`${releaseDateCompact}230600`);
+      const releaseThaiNumber = Number(`${releaseDateCompact}180000`);
 
       return nowThaiNumber >= releaseThaiNumber;
     }
